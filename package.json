@@ -1,6 +1,14 @@
 {
+  "homepage": "http://andrewjlittle.github.io/Recipe-Search-App",
   "dependencies": {
     "react-icons": "^4.10.1",
     "sass": "^1.64.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
